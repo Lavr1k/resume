@@ -1,0 +1,13 @@
+.b-menu_type_expand
+{
+	position: absolute;
+	opacity: 0;
+	display: none;
+}
+
+.b-menu_type_expand .b-menu__item
+{
+	display: block;
+	margin: 0;
+	background-color: #00a4e0;
+}

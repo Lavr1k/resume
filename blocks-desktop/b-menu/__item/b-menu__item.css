@@ -1,0 +1,17 @@
+.b-menu__item
+{
+	display: inline-block;
+	margin: 5px;
+	width: 240px;
+	background-color: #00b5e0;
+	list-style: none;
+	vertical-align: middle;
+}
+
+.b-menu__item .b-link
+{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 48px;
+}
