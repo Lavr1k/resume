@@ -14,6 +14,9 @@
             js: true,
             content: [{
                 elem: 'item',
+                mods: {
+                    type: 'main'
+                },
                 content: {
                     block: 'b-link',
                     content: 'Главная',
@@ -21,6 +24,9 @@
                 }
             },{
                 elem: 'item',
+                mods: {
+                        type: 'main'
+                    },
                 attrs: {
                     id: 'general'
                 },
@@ -61,6 +67,9 @@
                 }]
             },{
                 elem: 'item',
+                mods: {
+                        type: 'main'
+                    },
                 attrs: {
                     id: 'development'
                 },

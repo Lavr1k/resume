@@ -1,6 +1,7 @@
 .b-header
 {
 	margin: auto;
-	width: 1000px;
+	width: 750px;
+	padding: 20px 0 30px;
 	text-align: center;
 }

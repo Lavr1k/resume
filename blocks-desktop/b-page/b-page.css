@@ -3,6 +3,10 @@
 {
 	background-image: url('b-page.png');
 	font-family: Segoe;
+	color: #fff;
+	width: 750px;
+	margin: auto;
+	font-size: 18px;
 }
 
 @font-face

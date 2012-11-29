@@ -1,11 +1,16 @@
 .b-menu__item
 {
 	display: inline-block;
-	margin: 5px;
+	margin: 3px;
 	width: 240px;
-	background-color: #00b5e0;
+	background-color: #00a4e0;
 	list-style: none;
 	vertical-align: middle;
+}
+
+.b-menu__item:hover
+{
+	background-color: #00b5e0;
 }
 
 .b-menu__item .b-link

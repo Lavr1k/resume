@@ -37,7 +37,7 @@ BEM.DOM.decl('b-menu',
         if (e.target !== this.domElem) {
             var opRate;
             var that = this;
-            this.lastChild.style.opacity == 1 && (opRate = 10);
+            this.lastChild.style.opacity != 0 && (opRate = 10);
 
             this.idIntervalS && clearInterval(this.idIntervalS);
 

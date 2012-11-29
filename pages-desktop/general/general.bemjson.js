@@ -1,6 +1,6 @@
 ({
     block: 'b-page',
-    title: 'clerBEM',
+    title: 'Основные вопросы',
     head: [
         { elem: 'css', url: '_general.css', ie: false },
         { elem: 'css', url: '_general.ie.css', ie: 'lt IE 8' },
@@ -14,6 +14,9 @@
             js: true,
             content: [{
                 elem: 'item',
+                mods: {
+                    type: 'main'
+                },
                 content: {
                     block: 'b-link',
                     content: 'Главная',
@@ -21,6 +24,9 @@
                 }
             },{
                 elem: 'item',
+                mods: {
+                        type: 'main'
+                    },
                 attrs: {
                     id: 'general'
                 },
@@ -61,6 +67,9 @@
                 }]
             },{
                 elem: 'item',
+                mods: {
+                        type: 'main'
+                    },
                 attrs: {
                     id: 'development'
                 },
@@ -101,5 +110,92 @@
                 }]
             }]
         }
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Фамилия, имя, отчество'
+        },{
+            elem: 'answer',
+            content: 'Лавриненко Александр Александрович'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Год рождения'
+        },{
+            elem: 'answer',
+            content: '1989 год рождения'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Город проживания'
+        },{
+            elem: 'answer',
+            content: 'Симферополь'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Вуз, факультет, специальность, кафедра'
+        },{
+            elem: 'answer',
+            content: [{
+                elem: 'paragraph',
+                content: 'Ялтинский Университет Менеджмента, факультет «Программное обеспечение автоматизированных систем», специальность программист, кафедра «Компьютерные науки»'
+            },{
+                elem: 'paragraph',
+                content: 'Ялтинский филиал Европейского университета, факультет «Информационных систем и технологий», информационные управляющие системы и технологии, кафедра информатики'
+            }]
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Год окончания вуза'
+        },{
+            elem: 'answer',
+            content: '2011 год (бакалавр)'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Уровень владения английским языком'
+        },{
+            elem: 'answer',
+            content: 'Средний'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Чего вы ожидаете от участия в Школе?'
+        },{
+            elem: 'answer',
+            content: 'Получение бесценного опыта, новых знаний'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Откуда вы о нас узнали?'
+        },{
+            elem: 'answer',
+            content: 'По рекомендации'
+        }]
+    },{
+        block: 'b-info',
+        content: [{
+            elem: 'question',
+            content: 'Сколько времени вы готовы уделять стажировке или работе в Яндексе?'
+        },{
+            elem: 'answer',
+            content: 'Все'
+        }]
     }]
 })
