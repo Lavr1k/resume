@@ -2,4 +2,12 @@
 .b-page
 {
 	background-image: url('b-page.png');
+	font-family: Segoe;
+}
+
+@font-face
+{
+	font-family: Segoe;
+	src: local("Scriptorama"),
+	url(Font/SegoeWP.ttf);
 }
