@@ -8,26 +8,26 @@
         { elem: 'js', url: '_development.js' }
     ],
     content: [{
-    	block: 'b-header',
-    	content: {
-    		block: 'b-menu',
+        block: 'b-header',
+        content: {
+            block: 'b-menu',
             js: true,
-    		content: [{
-    			elem: 'item',
+            content: [{
+                elem: 'item',
                 content: {
                     block: 'b-link',
                     content: 'Главная',
                     url: '/pages-desktop/index/index.html'
                 }
-    		},{
+            },{
                 elem: 'item',
+                attrs: {
+                    id: 'general'
+                },
                 content: [{
                     block: 'b-link',
                     content: 'Общие вопросы',
-                    url: '/pages-desktop/general/general.html',
-                    attrs: {
-                        id: 'general'
-                    }
+                    url: '/pages-desktop/general/general.html'
                 },{
                     block: 'b-menu',
                     attrs: {
@@ -61,13 +61,13 @@
                 }]
             },{
                 elem: 'item',
+                attrs: {
+                    id: 'development'
+                },
                 content: [{
                     block: 'b-link',
                     content: 'Опыт разработки',
-                    url: '/pages-desktop/development/development.html',
-                    attrs: {
-                        id: 'development'
-                    }
+                    url: '/pages-desktop/development/development.html'
                 },{
                     block: 'b-menu',
                     attrs: {
@@ -80,14 +80,14 @@
                         elem: 'item',
                         content: {
                             block: 'b-link',
-                            content: 'Опыт, языки программирования, воркфлоу',
+                            content: 'Языки программирования',
                             url: ''
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
-                            content: 'Постановка задач, и контроль версий',
+                            content: 'Workflow',
                             url: ''
                         }
                     },{
@@ -100,6 +100,6 @@
                     }]
                 }]
             }]
-    	}
+        }
     }]
 })

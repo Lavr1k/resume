@@ -21,13 +21,13 @@
                 }
             },{
                 elem: 'item',
+                attrs: {
+                    id: 'general'
+                },
                 content: [{
                     block: 'b-link',
                     content: 'Общие вопросы',
-                    url: '/pages-desktop/general/general.html',
-                    attrs: {
-                        id: 'general'
-                    }
+                    url: '/pages-desktop/general/general.html'
                 },{
                     block: 'b-menu',
                     attrs: {
@@ -61,13 +61,13 @@
                 }]
             },{
                 elem: 'item',
+                attrs: {
+                    id: 'development'
+                },
                 content: [{
                     block: 'b-link',
                     content: 'Опыт разработки',
-                    url: '/pages-desktop/development/development.html',
-                    attrs: {
-                        id: 'development'
-                    }
+                    url: '/pages-desktop/development/development.html'
                 },{
                     block: 'b-menu',
                     attrs: {
@@ -80,14 +80,14 @@
                         elem: 'item',
                         content: {
                             block: 'b-link',
-                            content: 'Опыт, языки программирования, воркфлоу',
+                            content: 'Языки программирования',
                             url: ''
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
-                            content: 'Постановка задач, и контроль версий',
+                            content: 'Workflow',
                             url: ''
                         }
                     },{
