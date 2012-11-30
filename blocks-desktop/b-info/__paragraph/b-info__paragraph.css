@@ -1,0 +1,10 @@
+.b-info__paragraph
+{
+	padding-bottom: 10px;
+	text-indent: 2em;
+}
+
+.b-info__paragraph:last-child
+{
+	padding-bottom: 0px;
+}

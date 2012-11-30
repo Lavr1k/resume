@@ -1,0 +1,6 @@
+block b-info, elem question{
+	tag: 'a'
+	attrs: {
+	name: this.ctx.name
+	}
+}

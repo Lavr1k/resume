@@ -1,0 +1,7 @@
+block b-anchor{
+	tag: a
+	attrs: {
+	href: this.ctx.url
+	name: this.ctx.name
+	}
+}
