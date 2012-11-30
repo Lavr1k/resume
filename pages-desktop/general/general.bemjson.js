@@ -47,21 +47,21 @@
                         content: {
                             block: 'b-link',
                             content: 'О себе',
-                            url: ''
+                            url: '#1'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Образование',
-                            url: ''
+                            url: '#2'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Яшкола',
-                            url: ''
+                            url: '#3'
                         }
                     }]
                 }]
@@ -90,21 +90,21 @@
                         content: {
                             block: 'b-link',
                             content: 'Языки программирования',
-                            url: ''
+                            url: '/pages-desktop/development/development.html#1'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Workflow',
-                            url: ''
+                            url: '/pages-desktop/development/development.html#2'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Работа в команде',
-                            url: ''
+                            url: '/pages-desktop/development/development.html#3'
                         }
                     }]
                 }]
@@ -114,6 +114,7 @@
         block: 'b-info',
         content: [{
             elem: 'question',
+            name: '1',
             content: 'Фамилия, имя, отчество'
         },{
             elem: 'answer',
@@ -141,6 +142,7 @@
         block: 'b-info',
         content: [{
             elem: 'question',
+            name: '2',
             content: 'Вуз, факультет, специальность, кафедра'
         },{
             elem: 'answer',
@@ -174,6 +176,7 @@
         block: 'b-info',
         content: [{
             elem: 'question',
+            name: '3',
             content: 'Чего вы ожидаете от участия в Школе?'
         },{
             elem: 'answer',

@@ -8,12 +8,12 @@
         { elem: 'js', url: '_index.js' }
     ],
     content: [{
-    	block: 'b-header',
-    	content: {
-    		block: 'b-menu',
+        block: 'b-header',
+        content: {
+            block: 'b-menu',
             js: true,
-    		content: [{
-    			elem: 'item',
+            content: [{
+                elem: 'item',
                 mods: {
                     type: 'main'
                 },
@@ -22,7 +22,7 @@
                     content: 'Главная',
                     url: '/pages-desktop/index/index.html'
                 }
-    		},{
+            },{
                 elem: 'item',
                 mods: {
                         type: 'main'
@@ -47,21 +47,21 @@
                         content: {
                             block: 'b-link',
                             content: 'О себе',
-                            url: ''
+                            url: '/pages-desktop/general/general.html#1'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Образование',
-                            url: ''
+                            url: '/pages-desktop/general/general.html#2'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Яшкола',
-                            url: ''
+                            url: '/pages-desktop/general/general.html#3'
                         }
                     }]
                 }]
@@ -90,25 +90,25 @@
                         content: {
                             block: 'b-link',
                             content: 'Языки программирования',
-                            url: ''
+                            url: '/pages-desktop/development/development.html#1'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Workflow',
-                            url: ''
+                            url: '/pages-desktop/development/development.html#2'
                         }
                     },{
                         elem: 'item',
                         content: {
                             block: 'b-link',
                             content: 'Работа в команде',
-                            url: ''
+                            url: '/pages-desktop/development/development.html#3'
                         }
                     }]
                 }]
             }]
-    	}
+        }
     }]
 })
