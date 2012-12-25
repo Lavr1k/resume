@@ -1,6 +1,0 @@
-block b-anchor{
-	tag: a
-	attrs: {
-		name: this.ctx.name
-	}
-}

@@ -1,5 +1,0 @@
-block b-info{
-	attrs: {
-		name: this.ctx.name
-	}
-}
